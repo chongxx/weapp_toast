@@ -2,6 +2,8 @@
 --
 因为微信提供的 toast 在显示的时候不能去掉图标, 而图标只提供了 `loading` `success` 在很多场景下不适用.
 
+所以有了下面这个👇
+![](./video/show_toast.gif)
 --
 ####如何使用这个toast?
 
