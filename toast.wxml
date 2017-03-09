@@ -1,0 +1,6 @@
+<!-- toast 的UI -->
+<view wx:if="{{show_toast}}"
+      style="height: 150rpx;position: fixed;z-index: 1000;top:750rpx;right: 0;left: 0;display: flex;justify-content: center;align-items: center">
+    <text style="background: rgba(0,0,0,0.6);padding: 10rpx 25rpx;border-radius: 15rpx;color: white;margin: 0 25rpx;box-shadow:2px 2px 5px #303030;font-size: 35rpx;line-height: 45rpx">{{toast_content}}
+    </text>
+</view>
